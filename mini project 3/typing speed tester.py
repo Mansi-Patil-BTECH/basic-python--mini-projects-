@@ -2,7 +2,7 @@
 import time #time module is imported to calculate the time taken by the user to type the given text
 import random 
 
-sentences = [" Python is a programming language",
+sentences = ["Python is a programming language",
 "it is easy to read and understand",
 "it is used for mainly everything like web development, data science etc.",]
 
@@ -14,10 +14,14 @@ def measure_accuracy(user_input, test_sentence):
 def typing_test():
     test_sentence = random.choice(sentences)
     print("Type as faster as you can")
+    print("----------------------------------------")
     print(test_sentence)
+    print("----------------------------------------")
     input("press enter when you are ready!")
+    print("----------------------------------------")
     start_time= time.time() #will measure the time taken
     user_input = input ("\n Start typing: \n")
+    print("----------------------------------------")
     end_time = time.time() #records the time taken
     time_taken = end_time - start_time 
     word_count = len (test_sentence.split(" "))
