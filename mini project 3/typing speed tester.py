@@ -20,6 +20,7 @@ def typing_test():
     input("press enter when you are ready!")
     print("----------------------------------------")
     start_time= time.time() #will measure the time taken
+    print("----------------------------------------")
     user_input = input ("\n Start typing: \n")
     print("----------------------------------------")
     end_time = time.time() #records the time taken
