@@ -26,3 +26,5 @@ for file in os.listdir(FOLDER_PATH):
         if ext in extensions:
             shutil.move(file, os.path.join(folder, file))
             break
+#run
+#output
