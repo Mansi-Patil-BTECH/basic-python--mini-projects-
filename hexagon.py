@@ -265,4 +265,3 @@ if __name__ == '__main__':
         print("N is {}".format(N))
     freqreuse = FrequencyReuse(cluster_size=N)
     freqreuse.mainloop()
-#run
