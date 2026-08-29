@@ -1,3 +1,4 @@
+#the snake water gun game 
 print("Snake, Water , Gun...\nwish you luck..\nlets see what does computer choooseee🤔")
 print("_________________________________ \nGame starts")
 import random
