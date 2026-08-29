@@ -8,3 +8,5 @@ for pdf in pdfs:
     merger.append(pdf)
 
 merger.write("merge.pdf")
+
+#more to code
