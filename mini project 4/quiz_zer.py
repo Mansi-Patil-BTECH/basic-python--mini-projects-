@@ -1,5 +1,4 @@
-# quizzer
-
+# the quizzer application
 
 def run_quiz():
     questions = [
