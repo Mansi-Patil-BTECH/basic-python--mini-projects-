@@ -1,0 +1,8 @@
+# for using the plyer library this is the basic code example
+from plyer import notification
+notification.notify(
+    title = " Hello", message = "This is a plyer notification!"
+)
+
+-------------------------------------------------------------------------
+
