@@ -28,7 +28,9 @@ def select_pdfs():
     selected_files.clear()
     selected_files.extend(files)
 
-    listbox.delete(0, tk.END)
+    listbox.delete(
+        0, tk.END
+    )  # tk.END is to clear the previous listbox content before adding new files
     for file_path in files:
         listbox.insert(tk.END, os.path.basename(file_path))
 

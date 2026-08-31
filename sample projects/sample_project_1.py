@@ -14,3 +14,9 @@ root.geometry("500x500")
 root.resizable(False,False)
 
 #creating buttons
+
+#runs the main loop
+root.mainloop()
+
+
+#this code is still to be completed.
