@@ -2,7 +2,7 @@ import os
 import tkinter as tk
 
 # tkinter is a built-in library in Python for creating GUI applications.
-# It provides a set of tools and widgets to build graphical user interfaces. In this code, tkinter is used to create a simple application that allows users to select multiple PDF files and merge them into a single PDF file. The application includes buttons for selecting files and merging them, a listbox to display the selected files, and status messages to inform the user about the current state of the application.
+# It provides a set of tools and widgets to build graphical user interfaces.
 from tkinter import filedialog, messagebox
 from pypdf import PdfWriter
 
@@ -66,24 +66,29 @@ def merge_files():
         messagebox.showerror("Error", f"Something went wrong:\n{exc}")
 
 
+# created window
 root = tk.Tk()
 root.title("PDF Merger")
 root.geometry("500x300")
-root.resizable(False, False)
+root.resizable(True, True)
 
+
+# giving widgets
 select_btn = tk.Button(root, text="Select PDFs", width=20, command=select_pdfs)
+# pady is the vertical paading, padx is the horizontal padding
 select_btn.pack(pady=(20, 10))
 
-listbox = tk.Listbox(root, width=60, height=10)
+listbox = tk.Listbox(root, width=100, height=10)
 listbox.pack(padx=20, pady=5)
 
 status_var = tk.StringVar(value="No file selected")
-status_label = tk.Label(root, textvariable=status_var, fg="gray")
+status_label = tk.Label(root, textvariable=status_var, fg="black")
 status_label.pack(pady=10)
 
 merge_btn = tk.Button(
-    root, text="Merge PDFs", width=20, command=merge_files, bg="green", fg="white"
+    root, text="Merge PDFs", width=20, command=merge_files, bg="blue", fg="white"
 )
-merge_btn.pack(pady=10)
+merge_btn.pack(pady=5)
 
+# run the main loop
 root.mainloop()
