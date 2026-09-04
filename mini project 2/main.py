@@ -46,3 +46,5 @@ for file in os.listdir(FOLDER_PATH):
             break
 
 print("FILES ARE ORGANIZED SUCESSFULLY✔️")
+
+#run and execute the organizer 
