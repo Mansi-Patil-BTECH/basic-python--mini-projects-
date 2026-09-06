@@ -10,9 +10,9 @@ FOLDER_PATH = os.path.dirname(os.path.abspath(__file__))  # current working dire
 # file directory mapping
 FILE_TYPES = {
     # you can add more types of file as based on your requirements
-    "Images": [".jpg"],
-    "Documents": [".pdf", ".docx"],
-    "Videos": [".mp4"],
+    "Images": [".jpg"], #for images
+    "Documents": [".pdf", ".docx"], #for docsfile
+    "Videos": [".mp4"], #for mp files
 }
 
 for folder in FILE_TYPES:  # create folders if not exist
