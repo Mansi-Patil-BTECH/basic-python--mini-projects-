@@ -14,4 +14,4 @@ def water_reminer():
         time.sleep(3600)  # Wait for 1 hour (3600 seconds)
 
 water_reminer() 
-#runn
+#run
