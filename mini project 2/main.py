@@ -6,7 +6,7 @@ import shutil  # shutil is the module perform operations on the data (read, move
 # FOLDER_PATH = os.getcwd() #this is used when the files are having individual folder
 FOLDER_PATH = os.path.dirname(os.path.abspath(__file__))  # current working directory
 
-
+#main
 # file directory mapping
 FILE_TYPES = {
     # you can add more types of file as based on your requirements
