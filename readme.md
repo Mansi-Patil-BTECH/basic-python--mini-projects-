@@ -43,4 +43,4 @@ Just for Python practice - building small real-life type projects to get the con
 
 ## Author
 Mansi Patil
-[GitHub Profile] https://github.com/Mansi-Patil-BTECH
+https://github.com/Mansi-Patil-BTECH
